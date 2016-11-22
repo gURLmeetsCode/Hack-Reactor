@@ -1,2 +1,26 @@
 sum all primes up to a given number
 
+var primeNum=[];
+var sumNum = 0;
+function printPrime(value){
+  for (var i=2; i<value; i++){
+    if (value % i !== 0){
+   primeNum.push(primeNum[i]= value); value++;}
+    for (var j=i; j<primeNum.length; j++){
+    sumNum += primeNum[j]
+
+    return sumNum;
+    }
+return false; 
+    
+}
+
+  
+}
+printPrime (1);
+printPrime (5);
+printPrime (2);
+printPrime (15);
+
+Time Complexity: O(n^2) quadratic 
+Space Complexity: O(1) constant
