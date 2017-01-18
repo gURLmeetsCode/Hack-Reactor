@@ -1,0 +1,23 @@
+var myArray = []
+myArray.push("Natasha Kelly", "nkelly162")
+
+var cutName = (string) =>{
+  var splitName = string.split(" ")
+  return splitName
+}
+
+cutName("Natasha Kelly")
+
+var myData = {}
+function addingPairs (){
+  myData.fullName = cutName(myArray[0])
+  myData.skype = myArray[1];
+  myData.github = "gURlmeetsCode"
+  return myData
+}
+
+addingPairs()
+
+//Accessing Object Methods
+
+objectName.methodName()
